@@ -1,0 +1,108 @@
+//FUNÇÕES
+// function imprimirOlaMundo() {
+//     console.log('Olá Mundo!')
+// }
+//declaração de uma função^^
+
+// imprimirOlaMundo()
+//execução de uma função^^
+
+// function name(nome = prompt('Qual o seu nome?')) {
+//     alert(`Olá ${nome}!`)
+// }
+// name()
+//(da pra usar => para declarar uma função tb)
+//-------------------------------------------
+
+//VARIAVEIS CRIADAS DENTRO DA FUNÇÃO NÃO FUNCIONAM FORA DA CHAVE
+// const a = 1
+
+// function imprimeVariavel() {
+//     const b = 2
+//     console.log('Variavel a:', a)
+//     console.log('Variavel b:', b)
+// }
+// imprimeVariavel()
+
+// console.log('Variavel a:', a)
+// console.log('Variavel b:', b)
+//-------------------------------------------
+
+//RETURN
+// function calculaArea(altura, largura) {
+//     const area = altura * largura;
+//     return area;
+// }
+
+// const areaCalculada = calculaArea(2, 3);
+// console.log(calculaArea(2, 3));
+// console.log(areaCalculada);
+//-------------------------------------------
+
+//EXERCICIO 1 (soma, substração, multiplicação e divisão)
+// function numbers(numero1 = Number(prompt('Insira um número')), numero2 = Number(prompt('Insira outro número'))) {
+//     const soma = numero1 + numero2;
+//     return soma;
+// }
+// const somaNumeros = numbers();
+// alert(`a soma desses números é ${somaNumeros}`);
+//-------------------------------------------
+// function numbers(numero1 = Number(prompt('Insira um número')), numero2 = Number(prompt('Insira outro número'))) {
+//     const sub = numero1 - numero2;
+//     return sub;
+// }
+// const subNumeros = numbers();
+// alert(`a subtração desses números é ${subNumeros}`);
+//-------------------------------------------
+// function numbers(numero1 = Number(prompt('Insira um número')), numero2 = Number(prompt('Insira outro número'))) {
+//     const multi = numero1 * numero2;
+//     return multi;
+// }
+// const multiNumeros = numbers();
+// alert(`a multiplicação desses números é ${multiNumeros}`);
+//-------------------------------------------
+// function numbers(numero1 = Number(prompt('Insira um número')), numero2 = Number(prompt('Insira outro número'))) {
+//     const div = numero1 / numero2;
+//     return div;
+// }
+// const divNumeros = numbers();
+// alert(`a divisão desses números é ${divNumeros}`);
+//-------------------------------------------
+
+//EXERCICIO 2
+// let array =[]
+// function arrayPai(numero1 = Number(prompt('Insira um número')), numero2 = Number(prompt('Insira outro número'))) {
+//     array = [numero1, numero2];
+//     let array2 = [numero1 / 2, numero2 / 2];
+//     return array2
+// }
+// const array3 = arrayPai();
+// alert(`A divisão desses números por 2 é: ${array3[0]}, ${array3[1]}`);
+//-------------------------------------------
+
+// function divideArray(meuArray) {
+//     let b = [(meuArray[0] / 2), (meuArray[meuArray.length - 1] / 2)];
+//     return b;
+// }
+// let a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// const resultado = divideArray(a);
+// console.log(resultado);
+//-------------------------------------------
+
+//EXERCICIO N LEMBRO O NÚMERO MAIS (expressões de função)
+//1.
+// let numbers = function(numero1 = Number(prompt('Insira um número')), numero2 = Number(prompt('Insira outro número'))) {
+//     const soma = numero1 + numero2;
+//     return soma;
+// }
+// const somaNumeros = numbers();
+// alert(`a soma desses números é ${somaNumeros}`);
+//-------------------------------------------
+//2.
+// let arrayPai = (numero1 = Number(prompt('Insira um número')), numero2 = Number(prompt('Insira outro número'))) => {
+//     array = [numero1, numero2];
+//     let array2 = [numero1 / 2, numero2 / 2];
+//     return array2
+// }
+// const array3 = arrayPai();
+// alert(`A divisão desses números por 2 é: ${array3[0]}, ${array3[1]}`);
